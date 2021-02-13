@@ -68,28 +68,28 @@ class Post
         return $this->title;
     }
 
-    // public function setContent(): string
-    // {
-    //     return $this->content;
-    // }
+    public function getContent(): string
+    {
+        return $this->content;
+    }
 
-    // public function setAuthor(): string
-    // {
-    //     return $this->author;
-    // }
+    public function getAuthor(): string
+    {
+        return $this->author;
+    }
 
-    // public function setStatus(): string
-    // {
-    //     return $this->status;
-    // }
+    public function getStatus(): string
+    {
+        return $this->status;
+    }
 
-    // public function setCategory(): string
-    // {
-    //     return $this->category;
-    // }
+    public function getCategory(): string
+    {
+        return $this->category;
+    }
 
-    // public function setImg(): string
-    // {
-    //     return $this->img;
-    // }
+    public function getImg(): string
+    {
+        return $this->img;
+    }
 }
