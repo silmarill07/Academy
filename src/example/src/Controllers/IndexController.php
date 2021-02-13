@@ -1,3 +1,3 @@
 <?php
 
-namespace It20Acadamy\App\Core;
+namespace It20Academy\App\Core;
